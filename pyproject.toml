@@ -3,7 +3,7 @@ name = "fastapi-uv-docker"
 version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = [
-  "fastapi>=0.110",
+  "fastapi[standard]>=0.128.0",
   "uvicorn[standard]>=0.27",
 ]
 
