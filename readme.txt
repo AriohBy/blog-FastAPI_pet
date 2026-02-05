@@ -10,5 +10,9 @@ docker run --rm \
 docker build -t fastapi-uv .
 docker run --rm -p 8000:8000 fastapi-uv
 
+# Witout docker 
+uv run fastapi dev main.py
+
+
 # Swagger
 http://localhost:8000/docs
