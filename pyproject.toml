@@ -3,7 +3,9 @@ name = "fastapi-uv-docker"
 version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = [
+  "aiosqlite>=0.22.1",
   "fastapi[standard]>=0.128.0",
+  "greenlet>=3.3.1",
   "sqlalchemy>=2.0.46",
   "uvicorn[standard]>=0.27",
 ]
