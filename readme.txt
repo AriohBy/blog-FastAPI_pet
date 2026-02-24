@@ -16,3 +16,7 @@ uv run fastapi dev main.py
 
 # Swagger
 http://localhost:8000/docs
+
+
+token generation:
+python -c "import secrets;    print(secrets.token_hex(32))"
