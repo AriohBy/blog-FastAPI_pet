@@ -4,3 +4,5 @@ __pycache__/
 *.pyc
 blog.db
 .env
+populate_db.py
+
