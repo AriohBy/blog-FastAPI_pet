@@ -24,4 +24,7 @@ python -c "import secrets;    print(secrets.token_hex(32))"
 
 alembic: 
 uv run alembic init -t async alembic
-uv run alembic revision --autogenerate -m "initial schema"  
+uv run alembic revision --autogenerate -m "initial schema"
+uv run alembic upgrade head
+uv run alembic current
+uv run alembic history
