@@ -20,3 +20,8 @@ http://localhost:8000/docs
 
 token generation:
 python -c "import secrets;    print(secrets.token_hex(32))"
+
+
+alembic: 
+uv run alembic init -t async alembic
+uv run alembic revision --autogenerate -m "initial schema"  
